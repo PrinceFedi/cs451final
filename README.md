@@ -10,7 +10,7 @@ To create a nice markdown diagram of your repository folder structure, you can u
 
 ## How to Use
 
-![User Demo](userdemo.mp4)
+![User Demo](/Userdemo.mp4)
 
 ---
 
