@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The BabyGhost Management</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+</head>
+<body>
+
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/LetterLogoNav.png" width="125px"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>The BabyGhost Streetwear Management System</h1>
+                
+            <div class="col-img">
+                <img src="images/Landing1.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="popular">
+    <div class="small-container">
+        <h2 class="title">Management Option List</h2>
+        <div class="row">
+            <div class = "mangement-options">
+            <ul class="management-links">
+                <li><a href="totalSale.php">Show the total sales for each store</a></li>
+                <li><a href="mostBuyUsers.php">Show the top 3 most purchased users</a></li>
+                <li><a href="outOfStock.php">List products that are out of stock in all stores</a></li>
+                <li><a href="bestCateg.php">Find best-selling products by category</a></li>
+                <li><a href="totalRevenue.php"> Calculate total revenue and quantity sold for each product</a></li>
+                <li>
+                    <p class="about">Find products purchased by users from: (IL,CA,MI,GA,LA,NY,ON)</p>
+                    <form id="state-form" action="fromState.php" class="inline-form" method="POST">
+                        <input type="text" id="state" name="state" placeholder="State">
+                        <button type="submit" class="btn-small">Submit</button>
+                    </form>
+		    <p id="error-message" style="display: none; color: red;">Input Error: Please enter a valid state (IL, CA, MI, GA, LA, NY, ON).<p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!----- footer------>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-2">
+                <img src="images/LogoWhite.png" width="125px">
+                <p>Create a streetwear community with passion</p>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Since 2024</p>
+    </div>
+</div>
+
+</body>
+</html>
