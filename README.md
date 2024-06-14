@@ -10,7 +10,7 @@ To create a nice markdown diagram of your repository folder structure, you can u
 
 ## How to Use
 
-![User Demo](/Userdemo.mp4)
+[![LINK TO USER DEMO HERE!!!](http://img.youtube.com/vi/KoyII2XtJ3E/0.jpg)](https://youtu.be/KoyII2XtJ3E "Watch the User Demo")
 
 ---
 
